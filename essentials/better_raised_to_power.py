@@ -8,9 +8,10 @@
 '''
 
 import time
-start = time.time()
+
 
 a, b = map(int, raw_input().split())
+start = time.time()
 
 def better_expo(a, b):
 	if b == 1:
