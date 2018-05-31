@@ -24,3 +24,6 @@ else:
 	print str(n) + " is not a prime number"
 
 print "Time taken: " + str(time.time() - start)
+
+
+# THIS SOLVES PROBLEM IN O(SQRT(N))

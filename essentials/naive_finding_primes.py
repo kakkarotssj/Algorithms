@@ -15,3 +15,5 @@ else:
 	print str(n) + " is a not a prime number"
 
 print "Time taken: " + str(time.time() - start)
+
+# THIS SOLVES PROBLEM IN O(N)
