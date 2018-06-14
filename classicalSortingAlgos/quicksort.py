@@ -18,3 +18,8 @@ arr = [12, 11, 13, 5, 6, 7]
 l, r = 0, len(arr)-1
 quicksort(arr, l, r)
 print arr
+
+'''
+WORST CASE: O(n*n): when pivot always chosen as the smallest or biggest
+BEST CASE : O(nlogn) 
+'''
